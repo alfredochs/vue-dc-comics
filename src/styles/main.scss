@@ -1,0 +1,23 @@
+.main-container{
+    .top-black{
+        background-color: black;
+        color: white;
+        padding: 50px 0;
+    }
+    .bottom-blue{
+        background-color: #0282FA;
+        padding: 20px 0;
+        color: white;
+
+        .card-container{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+    }
+    .flex{
+        display: flex;
+        justify-content: space-around;
+    }
+}

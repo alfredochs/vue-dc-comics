@@ -1,0 +1,17 @@
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: auto;
+    padding: 30px 0;
+
+    ul{
+        display: flex;
+        list-style: none;
+
+        li{
+            padding: 5px;
+        }
+    }
+
+}
