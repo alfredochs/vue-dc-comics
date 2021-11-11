@@ -2,11 +2,38 @@
     .footer-top{
         background-image: url(../assets/footer-bg.jpg);
         color: white;
+        position: relative;
         ul{
             list-style: none;
         }
-        .lista-container{
-            
+        .liste-container{
+            display: flex;
+            padding-left: 100px;
+        }
+        .prima-colonna{
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+        }
+
+    }
+    .footer-bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #303030;
+        color: white;
+        .right-section{
+            display: flex;
+            align-items: center;
+            .container-icone{
+                display: flex;
+                padding: 10px;
+                img{
+                    padding: 10px;
+                }
+            }
+
         }
     }
 

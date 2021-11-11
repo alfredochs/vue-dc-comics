@@ -1,21 +1,79 @@
 <template>
   <div class="footer-container">
     <div class="footer-top">
-      <div class="lista-container">
-        <h4>DC Comics</h4>
-        <ul>
-          <li>Characters</li>
-          <li>Characters</li>
-          <li>Characters</li>
-          <li>Characters</li>
-          <li>Characters</li>
-          <li>Characters</li>
-          <li>Characters</li>
-        </ul>
+      <div class="liste-container">
+        <div class="prima-colonna">
+          <div class="up">
+            <h4>DC Comics</h4>
+            <ul>
+              <li>Characters</li>
+              <li>Characters</li>
+              <li>Characters</li>
+              <li>Characters</li>
+              <li>Characters</li>
+              <li>Characters</li>
+              <li>Characters</li>
+            </ul>
+          </div>
+
+          <div class="down">
+            <h4>Shop</h4>
+            <ul>
+              <li>Characters</li>
+              <li>Characters</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="seconda-colonna">
+          <h4>DC Comics</h4>
+          <ul>
+            <li>Characters</li>
+            <li>Characters</li>
+            <li>Characters</li>
+            <li>Characters</li>
+            <li>Characters</li>
+            <li>Characters</li>
+            <li>Characters</li>
+            <li>Characters</li>
+            <li>Characters</li>
+            <li>Characters</li>
+            <li>Characters</li>
+          </ul>
+        </div>
+
+        <div class="seconda-colonna">
+          <h4>DC Comics</h4>
+          <ul>
+            <li>Characters</li>
+            <li>Characters</li>
+            <li>Characters</li>
+            <li>Characters</li>
+            <li>Characters</li>
+          </ul>
+        </div>
+
+        <div></div>
+        <div></div>
       </div>
     </div>
+    <!-- <img src="../assets/dc-logo-bg.png" alt="logo" class="img-absolute" /> -->
 
-    <div class="footer-bottom"></div>
+    <div class="footer-bottom">
+      <div>
+        <button>Sign Up Now</button>
+      </div>
+      <div class="right-section">
+        <span>Follow US</span>
+        <div class="container-icone">
+          <img src="../assets/footer-facebook.png" alt="" />
+          <img src="../assets/footer-periscope.png" alt="" />
+          <img src="../assets/footer-pinterest.png" alt="" />
+          <img src="../assets/footer-twitter.png" alt="" />
+          <img src="../assets/footer-youtube.png" alt="" />
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
