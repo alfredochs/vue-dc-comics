@@ -3,6 +3,17 @@
     <div class="up-section">
       <img src="../assets/jumbotron.jpg" alt="" />
     </div>
+
+    <div class="cards-container">
+      <div class="single-card" v-for="(chiave, i) in jsonDati" :key="i">
+        <img :src="chiave.thumb" alt="" />
+        <span class="description">{{ chiave.series }}</span>
+      </div>
+    </div>
+
+    <div>
+      <button class="button-cards">LOAD MORE</button>
+    </div>
   </div>
 </template>
 
