@@ -51,13 +51,13 @@
             <li>Characters</li>
             <li>Characters</li>
           </ul>
+          <img src="../assets/dc-logo-bg.png" alt="logo" class="logo-dc" />
         </div>
 
         <div></div>
         <div></div>
       </div>
     </div>
-    <!-- <img src="../assets/dc-logo-bg.png" alt="logo" class="img-absolute" /> -->
 
     <div class="footer-bottom">
       <div>

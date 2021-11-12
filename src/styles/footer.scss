@@ -1,8 +1,16 @@
 .footer-container{
+    position: relative;
     .footer-top{
         background-image: url(../assets/footer-bg.jpg);
         color: white;
         position: relative;
+        overflow: hidden;
+        img{
+            position: absolute;
+            top: -5%;
+            right: 5%;
+            max-width: 400px;
+        }
         ul{
             list-style: none;
         }
@@ -15,7 +23,7 @@
             flex-direction: column;
             text-align: left;
         }
-
+        
     }
     .footer-bottom{
         display: flex;
