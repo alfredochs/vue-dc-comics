@@ -1,7 +1,33 @@
 .main-container{
-    .top-black{
+    .contenitore-cards-bg{
         background-color: black;
-        color: white;
+        img{
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            object-position: top;
+        }
+        .contenitore-cards{
+            padding: 50px 0;
+            width: 80%;
+            color: white;
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+            gap: 15px;
+        }
+        .button-container{
+            margin: auto;
+            .button-cards{
+                width: 150px;
+                height: 50px;
+                background-color: #0282FA;
+                color: white;
+                font-weight: bold;
+                border-style: none;
+                margin: auto;
+            }
+        }
     }
     .bottom-blue{
         background-color: #0282FA;
