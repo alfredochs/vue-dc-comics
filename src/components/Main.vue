@@ -1,9 +1,11 @@
 <template>
   <div class="main-container">
-    <!-- Contenitore delle card -->
     <div class="contenitore-cards-bg">
-      <img src="../assets/jumbotron.jpg" alt="" />
+      <img src="../assets/jumbotron.jpg" alt="" class="jumbotron" />
       <div class="contenitore-cards">
+        <div class="current-series-container">
+          <button class="button-current-series">CURRENT SERIES</button>
+        </div>
         <!-- <CardsSection></CardsSection> -->
         <CardsSection
           v-for="(chiave, i) in jsonDati"
